@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div>
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C560BAQEsblNldV9jag/company-logo_200_200/0?e=1601510400&v=beta&t=k_Qekc2E7FKEQyGoVpnfu6aPJ3JBdkjDh6E0IeKxBQs"
+        />
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="salon-locator.html">Locator</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="bridal.html">Bridal</a></li>
+          <li><a href="franchisee.html">Franchisee</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <img
+        src="http://www.mygreentrends.in/system/multiple_images/desktop_images/000/000/004/original/franchise_banner.jpg?1437396922"
+        class="center-fit"
+      />
+      <p style="font-size: large;">
+        We are looking to expand to a pan-India presence with our chain of
+        high-end styling and spa services offered in a stylish and serene
+        environment. If you share the same levels of commitment to delivering a
+        superior customer experience as we do, then do get in touch with us.
+        Take up this simple quiz to check if franchising is right for you.
+      </p>
+      <div>
+        <h2 style="color: gray; text-align: center;">FRANCHISEE QUIZ</h2>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          background-color: rgb(48, 13, 47);
+        "
+      >
+        <div id="q1" style="color: white;"></div>
+        <div id="r1"></div>
+      </div>
+
+      <script src="quiz.js"></script>
+
+      <!-- <script>
+          document.getElementById("quiz").innerHTML =
+            "Are you currently working?";
+        </script> -->
+    </div>
+
+    <div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-content: space-between;
+          margin-top: 30px;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          <h2 style="color: gray; text-align: center;">
+            Interested..?
+          </h2>
+          <p>
+            franchisee@trendsinvogue.in<br />
+            +91 9600046433
+          </p>
+        </div>
+        <div>
+          <h2 style="color: gray; text-align: center;">
+            TO KNOW ABOUT FRANCHISEE OPPORTUNITIES
+          </h2>
+
+          <form
+            style="
+              color: white;
+              margin-left: 42px;
+              margin-right: 42px;
+              text-align: left;
+              background-color: black;
+            "
+          >
+            <label for="name"> Name:</label><br />
+            <input type="text" id="cname" style="width: 400px;" /><br />
+            <label for="subject">Subject:</label>
+            <select
+              id="csub"
+              name="subject"
+              style="font-size: small; height: 20px;"
+            >
+              <option value="Customer feedback">Customer feedback</option>
+              <option value="Career">Career</option>
+              <option value="Franchisee enquiries" selected
+                >Franchisee enquiries</option
+              >
+              <option value="Other enquiries"> Other enquiries</option>
+            </select>
+            <br />
+            <label for="phone">Phone:</label><br />
+            <input type="number" id="cphone" style="width: 400px;" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="cemail" style="width: 400px;" /><br />
+            <label for="message">Message:</label><br />
+            <input
+              type="text"
+              id="cmessage"
+              style="height: 100px; width: 400px;"
+            /><br />
+            <button style="background-color: beige;">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: black;
+  color: white;
 }
 .center-fit {
   width: 100%;
@@ -74,4 +75,39 @@ p {
   transform: scale(1.15);
   -ms-transform: scale(1.15); /* IE 9 */
   -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  color: black;
+  border: cadetblue;
+  height: 30px;
+  margin: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: none;
+  text-align: center;
+  padding: 8px;
+}
+
+SELECT {
+  height: 30px;
+  border: cadetblue;
+  margin: 30px;
+  font-size: large;
 }
